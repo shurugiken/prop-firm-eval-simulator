@@ -55,7 +55,7 @@ Run the file directly to execute the self-test suite plus an illustrative cross-
 python eval_sim.py
 ```
 
-## Self-tests (the model is proven, not asserted)
+## Self-tests (the mechanics are tested, not just asserted)
 
 `python eval_sim.py` runs a battery that demonstrates each mechanic does real, load-bearing work:
 
