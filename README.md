@@ -73,6 +73,12 @@ Even at an honest ~50% pass rate, the eval fee behaves like a cheap, repeatable 
 
 It contains **no trading strategy and no edge** — it's a risk-mechanics calculator. You supply the statistical fingerprint (win rate, R-distribution, risk, frequency); it returns pass probability and failure modes. The firm rulesets are public information.
 
+## Example run
+
+![Example run: pass-rate hump and failure-mode breakdown](assets/example-run.png)
+
+*Left: pass rate vs contract size on Lucid 25k (50% win / +1.6R winners / −1R losers / 80 trades/mo / $1 cost/micro). The hump peaks around 6–8 micros and collapses as oversizing hands drawdown breaches to the trailing floor. Right: stacked outcome breakdown across four firm configs at 8 micros — 30 000 simulations each; numbers inside bars are pass rates.*
+
 ## License
 
 MIT © Kwashawn Warren
